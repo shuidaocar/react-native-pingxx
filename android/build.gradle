@@ -31,7 +31,7 @@ repositories {
 
 dependencies {
   compile 'com.facebook.react:react-native:+'
-  compile project(':react-native-pingxx:pingpp')
+  compile files('pingpp/libs/libpingpp-2.1.0.jar')
   compile 'com.pingxx:pingpp-alipay:2.1.+' //使用支付宝时添加
   compile 'com.pingxx:pingpp-upacp:2.1.+' //使用银联支付时添加
   compile 'com.pingxx:pingpp-wxpay:2.1.+' //使用微信支付时添加
